@@ -6,15 +6,36 @@
     font-style: normal;
 }
 
+/*-------------------------------Change Font here*-------------------------------*/
+* {
+    font-family: comic_boysregular;
+}
+/*-------------------------------------------------------------------------------*/
+
+/*-------------------------------------body--------------------------------------*/
 body{
-    background-color: #9be3ff;
+    background-image: url(Image/img_background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
 }
+/*-------------------------------------------------------------------------------*/
 
-h1{
-    color: rgb(26, 28, 116);
+/*-------------------------------------class-------------------------------------*/
+.Topic{
+    color: black;
     text-align: center;
+    font-size: 50px;
+    font-weight: bold;
 }
 
+.contact{
+    color: rgba(40, 127, 241, 0.938);
+    font-size: 60px;
+}
+/*-------------------------------------------------------------------------------*/
+
+/*-------------------------------------id----------------------------------------*/
 #profile{
     text-align: center;
 }
@@ -27,30 +48,16 @@ h1{
     color: rgb(255, 56, 34);
     text-shadow: 2px 5px 0px salmon;
     font-size: 50px;
-    font-family: comic_boysregular;
-    
 }
 
-#facebook{
-    text-transform: capitalize;
-    color: rgba(162, 0, 255, 0.938);
-    font-size: 60px;
-}
+/*-------------------------------------------------------------------------------*/
 
-#youtube{
-    text-transform: lowercase;
-    color: rgba(162, 0, 255, 0.938);
-    font-size: 60px;
-}
 
-#email{
-    text-transform: uppercase;
-    color: rgba(162, 0, 255, 0.938);
-    font-size: 60px;
-}
 
-#github{
-    color: rgba(162, 0, 255, 0.938);
-    font-size: 60px;
-}
-
+/* 
+    " * " is abount all web page
+    " # " is abount only one paragaphe
+    " @ " is .....
+    " . " is abount class. you can use one class for many paragaph
+    " body " is abount color and style abount website Ex. background
+*/
